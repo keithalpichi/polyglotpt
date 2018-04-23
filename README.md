@@ -73,7 +73,7 @@ ppt --input=<file> --from=<language> --to=<language> --ignoreToken=<token>
 |`--phrase=<phrase>`|the phrase to translate|true if `input` is not provided|`ppt --phrase='I love coffee'`|
 |`--input=<file>`|the input file that contains an object of phrases|true if `phrase` is not provided|`ppt --input=./input.js`|
 |`--output=<file>`|the ouput file to output the translations to. If not provided, it will be outputted to the console|false|`ppt --output=./output.js`|
-|`--ignoreTokens=<token>`|any phrase that contains the token will be ignored|false|`--ignoreTokens=%{`|
+|`--ignoreTokens=<token>`|any phrase that contains the token will be ignored|false|`ppt --ignoreTokens=%{`|
 
 ### Contributions
 I'd be happy to accept PR's but please open a ticket (if it doesn't exist already) to discuss the bug, request, concern, questions, etc.
