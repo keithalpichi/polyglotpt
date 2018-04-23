@@ -1,0 +1,26 @@
+{
+  "author": "keith alpichi",
+  "name": "polyglotpt",
+  "description": "A command-line tool to Google translate a phrase or an object of phrases from one language to one or more languages.",
+  "bin": {
+    "ppt": "./index.js"
+  },
+  "keyword": [
+    "polyglot",
+    "translate",
+    "language",
+    "redux-polyglot",
+    "polyglotpt"
+  ],
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.15.1",
+    "google-translate-api": "^2.3.0"
+  },
+  "repository": {
+    "url": "http://github.com/keithalpichi/polyglotpt",
+    "type": "git"
+  }
+}
